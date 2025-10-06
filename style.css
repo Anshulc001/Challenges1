@@ -1,0 +1,295 @@
+/* Reset margins/padding and use border-box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make html and body full-viewport size */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    font-family: Poppins;
+    background-color: #111111;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    align-items: center;
+    background-color: #111111cd;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    color: whitesmoke;
+    z-index: 1000;
+}
+
+#nav-bar-start {
+    font-size: 28px;
+
+}
+
+#nav-bar-middle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    left: 6%;
+    background-color: #191919;
+    padding: 10px 20px;
+    border-radius: 200px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+#nav-bar-end {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav-bar-end button {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 18px;
+    border-radius: 200px;
+    border-color: #d4f704;
+    font-size: medium;
+}
+
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+#bodypart {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+    /* Adjusted from 80px to 60px */
+    background-repeat: no-repeat;
+    background-color: #111111;
+    /* Removed margin-top */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+#bodypart img {
+    height: 460px;
+    width: 500px;
+    object-fit: cover;
+}
+
+#textp{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    
+
+}
+.textp1 , .textp2{
+    font-size: 47px;
+}
+.textp2{
+    font-weight: 600;
+}
+
+#leftpart img{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px
+}
+#leftpart h3{
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+#leftpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 36%;
+    left: 6%;
+}
+#rightpart{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 36%;
+    right: 6%;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    color: #d4f704;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#circleatomic img{
+    height: 100px;
+    width: 100px;
+}
+
+#arrow1{
+    position: absolute;
+    top: 36%;
+    left: 24%;
+}
+
+#arrow1 img{
+    height: 140px;
+    width: 140px;
+    transform: rotate(-30deg);
+}
+
+#body2{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    /* overflow: auto; */
+}
+#upperpart1{
+    display: flex;
+    flex-direction: column;
+
+}
+#mainupper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+#upperpart1 h6{
+    font-size: medium;
+    color: #d4f704;
+    font-weight: 300;
+}
+#upperpart1 h1{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+#upperpart2{
+    width: 600px;
+    text-align: center;
+}
+#rightarrow,#leftarrow{
+    font-size: 10px;
+    padding: 24px 28px;
+    border-radius: 8px;
+}
+
+#arrow2 img{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    transform: rotate(-10deg);
+    top: 20%;
+    left: 17%;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content:center;
+    margin-top: 10%;
+    background-color: #000000;
+    
+
+}
+.card1{
+    height: 440px;
+    width: 340px;
+    background-color:#191919;
+    border: 1px solid whitesmoke;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.innercard{
+    height: 410px;
+    width: 310px;
+    background-color: #d4f704;
+    border-radius: 20px; 
+    clip-path: polygon(46% 0%, 63% 12%, 100% 12%, 100% 100%, 0% 100%, 0% 0%);
+    background-image:url(./Moneky1.jpg);
+    background-size:cover;
+    background-position:right;
+    padding: 10px;
+    /* position: relative; */
+   
+}
+
+.leftbottom{
+    display: flex;
+    background-color: #111111;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    border-bottom-left-radius: 20px;
+}
+.leftbottom img{
+    width: 30px;
+    height: 30px;
+}
+
+.topright{
+    position: absolute;
+    color: white;
+    right: 4%;
+    top: 4%;
+    
+}
+.limited h3{
+    position: absolute;
+    background-color: red;
+    width: 180px;
+    padding: 10px;
+    border-end-start-radius:20px ;
+    border-start-end-radius: 20px;
+    left: -22%;
+    top: 14%;
+}
