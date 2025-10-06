@@ -293,3 +293,48 @@ hr{
     left: -22%;
     top: 14%;
 }
+
+.innercard-2{
+    background-image: url(./monkey2.jpg);
+     height: 410px;
+    width: 310px;
+    background-color: #d4f704;
+    border-radius: 20px; 
+    clip-path: polygon(46% 0%, 63% 12%, 100% 12%, 100% 100%, 0% 100%, 0% 0%);
+    background-size:cover;
+    background-position:right;
+    padding: 10px;
+}
+.innercard-3{
+    background-image: url(./Monkey3.jpg);
+     height: 410px;
+    width: 310px;
+    background-color: #d4f704;
+    border-radius: 20px; 
+    clip-path: polygon(46% 0%, 63% 12%, 100% 12%, 100% 100%, 0% 100%, 0% 0%);
+    background-size:cover;
+    background-position:right;
+    padding: 10px;
+}
+
+.limited-1 h3{
+     position: absolute;
+    background-color: rgb(12, 137, 221);
+    width: 180px;
+    padding: 10px;
+    border-end-start-radius:20px ;
+    border-start-end-radius: 20px;
+    left: -22%;
+    top: 14%;
+}
+
+.limited-2 h3{
+     position: absolute;
+    background-color: rgb(221, 12, 92);
+    width: 180px;
+    padding: 10px;
+    border-end-start-radius:20px ;
+    border-start-end-radius: 20px;
+    left: -22%;
+    top: 14%;
+}
